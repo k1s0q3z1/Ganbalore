@@ -82,6 +82,24 @@ header {
   color: white;
 }
 
+.header-right {
+  float: right;            
+  background-color: rgba(255, 255, 255, 0.3);            
+  transition: all 0.5s;
+  border-radius: 4px;
+}            
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);            
+}            
+
+.header-right a {
+  line-height: 65px;            
+  padding: 0 25px;            
+  color: white;            
+  display: block;            
+}
+
 .introduction-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -105,7 +123,7 @@ header {
   height: 300px;
   margin-bottom: 50px;
   display: inline-block;
-  background-image: url("Bengalure Palace.JPG");
+  background-image: url("Bengaluru Palace.JPG");
   background-size: cover;
 }
 
